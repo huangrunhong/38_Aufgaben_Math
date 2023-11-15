@@ -72,7 +72,7 @@ let zahlGeben = window.prompt("Schätzen Sie die Nummer zwischen 1 und 10");
 
 const spielFunction = () => {
   if (zahlGeben == zahlRandom) {
-    console.log("Korrekt!", "color:green");
+    console.log("Korrekt!");
   } else {
     console.log(`Du hast verloren. Die Nummer lautet ${zahlRandom}`);
   }
